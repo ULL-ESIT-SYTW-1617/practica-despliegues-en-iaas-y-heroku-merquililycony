@@ -9,7 +9,7 @@
 
 
    // ruteo
-   app.use(express.static(path.join(__dirname,'public')));
+   app.use(express.static(path.join(__dirname,'gh-pages')));
 
    app.get('/', function(request, response) {
      response.send('index');  
