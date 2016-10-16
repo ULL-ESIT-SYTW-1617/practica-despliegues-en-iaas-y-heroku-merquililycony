@@ -1,34 +1,30 @@
-# Práctica 3 : Despliegues en iaas y heroku
+# GitBook Boilerplate
 
- *El objetivo de esta práctica es proporcionar un mecanismo de despliegue de un libro gitbook
- de manera que un deploy a github produzca la actualización automática de los otros sites de despliegue.*
+# Práctica 1 : Tareas Iniciales. JavaScript. NodeJS. Gulpfile. Gitbook
 
-## Enlaces :
+# Enlaces :
 
- **Enlace al campus virtual**
+**Enlace al campus virtual**
 
- * [Enunciado] (https://casianorodriguezleon.gitbooks.io/ull-esit-1617/content/practicas/practicaiaas.html)
+* [Enunciado](https://crguezl.github.io/ull-esit-1617/practicas/practicagitbook.html)
 
-<<<<<<< HEAD
 **Repositorio GitHuB donde se realizó la práctica**
-* [Heoku](https://dashboard.heroku.com/pipelines/9b1769af-da94-40eb-8471-02c9e5d27046)
 
-=======
->>>>>>> lily
- **Repositorio GitHuB donde se realizó la práctica**
+* [Organización](https://github.com/ULL-ESIT-SYTW-1617/tareas-iniciales-merquililycony)
 
- * [Organización](https://github.com/ULL-ESIT-SYTW-1617/practica-despliegues-en-iaas-y-heroku-merquililycony.git)
+**Enlace a Gh-pages**
 
-<<<<<<< HEAD
+* [gh-pages](https://ull-esit-sytw-1617.github.io/tareas-iniciales-merquililycony/)
 
-=======
-**Enlace al iaas**
+**Enlace a Gitbook**
+* [Gitbook](https://edna.gitbooks.io/practica-1/content/)
 
- * [iaas](http://10.6.128.168:8080/)
- 
->>>>>>> lily
- **Página de los autores**
+**Página de los autores**
 
- * [Constanza](http://alu0100673647.github.io)
- * [Merquis](http://merquis.github.io)
- * [Liliana](https://alu0100762846.github.io)
+* [Constanza](http://alu0100673647.github.io)
+* [Merquis](http://merquis.github.io)
+* [Liliana](https://alu0100762846.github.io/alu0100762846.gtihub.io/)
+
+
+
+__Important__: Wiki must be created on Github
