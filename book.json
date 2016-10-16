@@ -1,0 +1,10 @@
+
+{
+    "root": "txt",
+    "gitbook": "3.1.1",
+    "title": "Practica 1, Tareas iniciales",
+    "author": "Merquis, Liliana, Constanza",
+    "language": "es",
+    "plugins" : ["youtube"]
+    
+}
