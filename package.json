@@ -1,5 +1,4 @@
 {
-<<<<<<< HEAD
   "name": "gitbook-boilerplate",
   "version": "0.0.1",
   "description": "GitBook Boilerplate",
@@ -12,18 +11,10 @@
     "deploy-wiki": "./scripts/losh deploy-wiki",
     "deploy": "npm run build && npm run deploy-gitbook && npm run deploy-wiki",
     "version": "./scripts/losh version",
-=======
-  "name": "practica-despliegues-en-iaas-y-heroku-merquililycony",
-  "version": "1.0.0",
-  "description": "*El objetivo de esta práctica es proporcionar un mecanismo de despliegue de un libro gitbook  de manera que un deploy a github produzca la actualización automática de los otros sites de despliegue.*",
-  "main": "gulpfile.js",
-  "scripts": {
->>>>>>> 0393787697b33aa4e931b0de6f749245bbc2dbc8
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-<<<<<<< HEAD
     "url": "https://github.com/ULL-ESIT-SYTW-1617/tareas-iniciales-merquililycony.git",
     "wiki": "https://github.com/ULL-ESIT-SYTW-1617/tareas-iniciales-merquililycony.wiki.git"
   },
@@ -53,14 +44,4 @@
     "gitbook-plugin-youtube": "^1.1.0"
 
   }
-=======
-    "url": "git+https://github.com/ULL-ESIT-SYTW-1617/practica-despliegues-en-iaas-y-heroku-merquililycony.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ULL-ESIT-SYTW-1617/practica-despliegues-en-iaas-y-heroku-merquililycony/issues"
-  },
-  "homepage": "https://github.com/ULL-ESIT-SYTW-1617/practica-despliegues-en-iaas-y-heroku-merquililycony#readme"
->>>>>>> 0393787697b33aa4e931b0de6f749245bbc2dbc8
 }
