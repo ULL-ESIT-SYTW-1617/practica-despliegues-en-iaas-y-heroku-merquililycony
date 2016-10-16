@@ -1,6 +1,8 @@
 # GitBook Boilerplate
 
-# Práctica 1 : Tareas Iniciales. JavaScript. NodeJS. Gulpfile. Gitbook
+# Práctica 3 : Práctica: Despliegues en iaas y heroku
+
+
 
 # Enlaces :
 
@@ -10,15 +12,17 @@
 
 **Repositorio GitHuB donde se realizó la práctica**
 
-* [Organización](https://github.com/ULL-ESIT-SYTW-1617/tareas-iniciales-merquililycony)
+* [Organización](https://github.com/ULL-ESIT-SYTW-1617/practica-despliegues-en-iaas-y-heroku-merquililycon)
 
 **Enlace a Gh-pages**
 
-* [gh-pages](https://ull-esit-sytw-1617.github.io/tareas-iniciales-merquililycony/)
+* [gh-pages](https://ull-esit-sytw-1617.github.io/practica-despliegues-en-iaas-y-heroku-merquililycon/)
 
 **Enlace a Gitbook**
 * [Gitbook](https://edna.gitbooks.io/practica-1/content/)
 
+**Enlace a heroku**
+*[Heroku](https://shielded-scrubland-23258.herokuapp.com/)
 **Página de los autores**
 
 * [Constanza](http://alu0100673647.github.io)
