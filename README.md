@@ -1,4 +1,3 @@
-# GitBook Boilerplate
 
 # Práctica 3 : Práctica: Despliegues en iaas y heroku
 
@@ -22,7 +21,7 @@
 * [Gitbook](https://edna.gitbooks.io/practica-1/content/)
 
 **Enlace a heroku**
-*[Heroku](https://shielded-scrubland-23258.herokuapp.com/)
+* [Heroku](https://shielded-scrubland-23258.herokuapp.com/)
 **Página de los autores**
 
 * [Constanza](http://alu0100673647.github.io)
