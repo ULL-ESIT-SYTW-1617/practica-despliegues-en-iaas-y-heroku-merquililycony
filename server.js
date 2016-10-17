@@ -16,7 +16,7 @@
    });
 
 
-app.post('/sync', function(request, response) {
+app.post('/_book', function(request, response) {
         function puts(error, stdout, stderr) {
            console.log("Salida:"+stdout);
            if(error) console.log("Error:"+error);
