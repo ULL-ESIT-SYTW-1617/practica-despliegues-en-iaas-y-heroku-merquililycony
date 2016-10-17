@@ -9,14 +9,14 @@
 
 
    // ruteo
-   app.use(express.static(path.join(__dirname,'gh-pages')));
+   app.use(express.static(path.join(__dirname,'/_book')));
 
    app.get('/', function(request, response) {
      response.send('index');  
    });
 
 
-app.post('/_book', function(request, response) {
+app.post('/sync', function(request, response) {
         function puts(error, stdout, stderr) {
            console.log("Salida:"+stdout);
            if(error) console.log("Error:"+error);
