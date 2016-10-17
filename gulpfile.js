@@ -22,6 +22,11 @@ gulp.task('pdf',
     { verbose: true })
 );
 
+// actualzacion iaas
+
+gulp.task('actualizando_iaas', function(){
+    return run(path.join(__dirname,'scripts','iaas')).exec();
+});
 
 
 gulp.task('build', function() {
