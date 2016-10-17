@@ -14,6 +14,18 @@
    app.get('/', function(request, response) {
      response.send('index');  
    });
+
+
+app.post('/sync', function(request, response) {
+        function puts(error, stdout, stderr) {
+           console.log("Salida:"+stdout);
+           if(error) console.log("Error:"+error);
+         }
+   exec('git clone https://github.com/ULL-ESIT-SYTW-1617/practica-despliegues-en-iaas-y-heroku-merquililycony.git'); 
+   exec("git pull https://github.com/ULL-ESIT-SYTW-1617/practica-despliegues-en-iaas-y-heroku-merquililycony.git  master", puts);
+   response.redirect('/');
+}); 
+
      
     // escuchar
    // app.listen(8080);
