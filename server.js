@@ -10,7 +10,7 @@
     
    // ruteo
 
-   app.use(express.static(path.join(__dirname,'_book')));
+   app.use(express.static(path.join(__dirname,'./gh-pages')));
 
 
    app.get('/', function(request, response) {
