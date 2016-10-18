@@ -28,6 +28,9 @@
   "bugs": {
     "url": "https://github.com/ULL-ESIT-SYTW-1617/tareas-iniciales-merquililycony/issues"
   },
+  "engines": {
+    "node": "0.10.x"
+  },
   "homepage": "https://github.com/ULL-ESIT-SYTW-1617/tareas-iniciales-merquililycony#readme",
   "devDependencies": {
     "async": "^1.4.0",
