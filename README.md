@@ -11,11 +11,11 @@
 
 **Repositorio GitHuB donde se realizó la práctica**
 
-* [Organización](https://github.com/ULL-ESIT-SYTW-1617/practica-despliegues-en-iaas-y-heroku-merquililycon)
+* [Organización](https://github.com/ULL-ESIT-SYTW-1617/practica-despliegues-en-iaas-y-heroku-merquililycony)
 
 **Enlace a Gh-pages**
 
-* [gh-pages](https://ull-esit-sytw-1617.github.io/practica-despliegues-en-iaas-y-heroku-merquililycon/)
+* [gh-pages](https://ull-esit-sytw-1617.github.io/practica-despliegues-en-iaas-y-heroku-merquililycony)
 
 **Enlace a Gitbook**
 * [Gitbook](https://edna.gitbooks.io/practica-1/content/)
