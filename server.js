@@ -1,15 +1,15 @@
 // importar
     var express = require('express');
-     
+    
     // instanciar
     var app = express();
     var path = require('path');
     
     var exec = require('child_process').exec; 
 
-
+    
    // ruteo
-   app.use(express.static(path.join(__dirname,'gh-pages')));
+   app.use(express.static(path.join(__dirname,'gh-pages/_book')));
 
    app.get('/', function(request, response) {
      response.send('index');  
