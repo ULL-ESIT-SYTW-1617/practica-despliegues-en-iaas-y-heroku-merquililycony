@@ -21,7 +21,7 @@
 * [Gitbook](https://edna.gitbooks.io/practica-1/content/)
 
 **Enlace a heroku**
-* [Heroku](https://shielded-scrubland-23258.herokuapp.com/)
+* [Heroku](http://libro-heroku.herokuapp.com/)
 
 **Página de los autores**
 
