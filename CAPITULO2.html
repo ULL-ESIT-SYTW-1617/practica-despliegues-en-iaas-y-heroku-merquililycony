@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="es" >
     <head>
-        <title>1.GitBook · Practica 1, Tareas iniciales</title>
+        <title>2.Gh-pages · Practica 1, Tareas iniciales</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="CAPITULO1.html" />
+    <link rel="next" href="CAPITULO2.html" />
     
     
-    <link rel="prev" href="./" />
+    <link rel="prev" href="CAPITULO1.html" />
     
 
     </head>
@@ -98,7 +98,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2" data-path="CAPITULO1.html">
+        <li class="chapter " data-level="1.2" data-path="CAPITULO1.html">
             
                 <a href="CAPITULO1.html">
             
@@ -156,7 +156,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.3" data-path="CAPITULO2.html">
+        <li class="chapter active" data-level="1.3" data-path="CAPITULO2.html">
             
                 <a href="CAPITULO2.html">
             
@@ -347,7 +347,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >1.GitBook</a>
+        <a href="." >2.Gh-pages</a>
     </h1>
 </div>
 
@@ -359,46 +359,40 @@
                             
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#xBF;qu&#xE9;-es-gitbook">&#xBF;Qu&#xE9; es GitBook?</h1>
-<h6 id="1-1">1-1</h6>
-<p>  <em>GitBook es una herramiento para crear documentaci&#xF3;n de proyectos y libros t&#xE9;cnicos</em></p>
-<h1 id="&#xBF;c&#xF3;mo-se-utiliza">&#xBF;C&#xF3;mo se utiliza?</h1>
-<h6 id="1-2">1-2</h6>
-<p>  <em>Se trabaja, utilizando Markdown y Github.</em></p>
-<p>  <em>PASO 0: Hay que tener instalado node.js</em></p>
-<p>  <em>PASO 1: Crear con el comando mkdir un directorio gitbook donde trabajar:</em></p>
-<pre><code>     $ mkdir /PATH/TO/gitbook
-     $ cd /PATH/TO/gitbook
-</code></pre><p>   <em>PASO 2: Ahora se necesita crear el package.json</em></p>
-<pre><code>    $ npm init
-</code></pre><p>  <em>No se necesita responder a las preguntas que el comando anterior pregunte, solo precionar enter. La informaci&#xF3;n necesitar se inyectara en el archivo package.json mediante el siguiente comando:</em></p>
-<pre><code>    $ npm install -g gitbook-cli --save
-</code></pre><pre><code>*PASO 3: Iniciar GitBook*
-</code></pre><pre><code>    $ gitbook init
-</code></pre><p><em>Para crear los html</em></p>
-<pre><code>  $ gitbook build
-</code></pre><pre><code>**NOTA:
-GitBook permite probar el libro antes de empujarlo a la web con el comando:**
-</code></pre><pre><code>    $ gitbook serve
-</code></pre><h1 id="&#xBF;c&#xF3;mo-desplegar-un-libro">&#xBF;C&#xF3;mo desplegar un libro?</h1>
-<h6 id="1-3">1-3</h6>
-<p>  <em>PASO 1: Crear un nuevo fichero llamado book.js</em></p>
-<pre><code>    # Node rules:
-    ### Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files).grunt
-    ### Dependency directory
-    ### Commenting this out is preferred by some people, see
-    ### https://docs.npmjs.com/misc/faq#should-i-check-my-node_modules-folder-into-git node_modules/
-    ### Book build output _book/
-    ### eBook build output
-    *.epub
-    *.mobi
-    *.pdf
-</code></pre><p><em>PASO 2: Ahora se hace un push en el repositorio que has elegido</em></p>
-<ul>
-<li>[Pasos]
-<div style="position: relative;padding-bottom: 56.25%;padding-top: 25px;height: 0;"><iframe frameborder="0" allowfullscreen style="border: none;position: absolute;top: 0;left: 0;width: 100%;height: 100%;" src="//www.youtube.com/embed/kdpfRLpu0FQ"></iframe></div></li>
-</ul>
+                                <h1 id="&#xBF;qu&#xE9;-es-gh-pages">&#xBF;Qu&#xE9; es GH-Pages?</h1>
+<h6 id="2-1">2-1</h6>
+<pre><code>*GH-pages es un servicio de alojamiento web est&#xE1;tico de Github que nos permite desplegar nuestro sitio web.*
+</code></pre><h1 id="&#xBF;c&#xF3;mo-se-utiliza">&#xBF;C&#xF3;mo se utiliza?</h1>
+<h6 id="2-2">2-2</h6>
+<pre><code>*Se puede almacenar cualquier c&#xF3;digo que se desee en un repositorio de Github, pero para usar la caracter&#xED;stica p&#xE1;ginas
+de Github con  pleno efecto, el c&#xF3;digo debe estar estructurado como un sitio web t&#xED;pico, por ejemplo que el punto de entrada
+primario sea un archivo     HTML llamado index.html.*
+</code></pre><p>  <strong>SEGUIREMOS LOS SIGUIENTES PASOS :</strong></p>
+<p>  <em>1. Crear un nuevo repositorio para colocar los archivos en el. Has clic en el signo m&#xE1;s (+) en la parte superior derecha   de la         p&#xE1;gina de inicio de GitHub, luego escoge Nuevo Repositorio</em>
+  *2. En esta p&#xE1;gina, en la caja Nombre del Repositorio, digita el nombre para tu repositorio de c&#xF3;digo, por ejemplo my-repository.</p>
+<ol>
+<li>Tambien llena una descripci&#xF3;n para decir lo que tu repositorio va a contener.</li>
+<li>Has Clic en Crear repositorio.*</li>
+</ol>
+<p>  <strong>SUBIENDO LOS ARCHIVOS A GITHUB :</strong></p>
+<p>  <em>1. En la p&#xE1;gina actual, nos interesa la secci&#xF3;n &#x2026;or push an existing repository from the command line. Se deber&#xED;an ver dos lineas de c&#xF3;digo listado en esta secci&#xF3;n. Copia la totalidad de la primera l&#xED;nea, pegala en la linea de comandos, presiona la tecla Enter.</em></p>
+<pre><code>  git remote add origin https://github.com/chrisdavidmills/my-repository.git
+</code></pre><p>  <em>2.A continuaci&#xF3;n, digitamos los siguientes dos comandos, presionando Enter despues de cada uno. Estos preparan el codigo para subirlo a GitHub, and ask Git to manage these files.</em></p>
+<pre><code>  git add --all
+  git commit -m &apos;adding my files to my repository&apos;
+</code></pre><p>  <em>3. Por &#xFA;ltimo, subimos el c&#xF3;digo hasta GitHub by going to the GitHub web page you&apos;re on and entering into the terminal the second of the two commands we saw the &#x2026;or push an existing repository from the command line section:</em></p>
+<pre><code>  git push -u origin master
+</code></pre><pre><code>*4. Ahora creamos la rama gh-pages de tu repositorio; actualiza la p&#xE1;gina actual y ver&#xE1; una p&#xE1;gina del repositorio algo as&#xED; como la de abajo. Presionamos el boton que dice Branch: master, digita gh-pages en el campo de texto, luego presiona el boton azul que dice Create branch: gh-pages. Esto crea una rama de c&#xF3;digo especial llamada gh-pages que es publicada en una ubicaci&#xF3;n especial. La URL toma la forma username.github.io/my-repository-name, asi en mi caso de ejemplo,* [la URL deber&#xED;a ser](https://chrisdavidmills.github.io/my-repository). *La p&#xE1;gina mostrada es la p&#xE1;gina index.html.
+</code></pre><ol>
+<li>Navega tu direcci&#xF3;n web de GitHub pages en un nuevo navegador, y deberia verse tu sitio en linea.*</li>
+</ol>
+<h1 id="como-utilizar-el-m&#xF3;dulo-gh-pages-para-automatizar-el-despliegue">Como utilizar el m&#xF3;dulo gh-pages para automatizar el despliegue</h1>
+<h6 id="2-3">2-3</h6>
+<pre><code>*Creaci&#xF3;n de p&#xE1;ginas con el generador autom&#xE1;tico
+Puede utilizar Generador autom&#xE1;tico de p&#xE1;gina GitHub para crear r&#xE1;pidamente un &#xFA;nico sitio web de p&#xE1;gina para un proyecto, usuario u     organizaci&#xF3;n.*
 
+*El generador autom&#xE1;tico de p&#xE1;gina est&#xE1; dise&#xF1;ada para crear sitios web de una sola p&#xE1;gina. Si usted est&#xE1; interesado en la construcci&#xF3;n de un sitio web de varias p&#xE1;ginas, se recomienda utilizar Jekyll . Para agregar varias p&#xE1;ginas a su sitio automatizado generador de la p&#xE1;gina como una soluci&#xF3;n, puede intentar copiar el index.htmlarchivo en la ra&#xED;z de su repositorio y editarlo como plantilla para otras p&#xE1;ginas web. Esta soluci&#xF3;n requiere cierta familiaridad con el lenguaje HTML.*
+</code></pre>
                                 
                                 </section>
                             
@@ -409,12 +403,12 @@ GitBook permite probar el libro antes de empujarlo a la web con el comando:**
 
             
                 
-                <a href="./" class="navigation navigation-prev " aria-label="Previous page: Introduction">
+                <a href="CAPITULO1.html#1-3" class="navigation navigation-prev " aria-label="Previous page: ¿Cómo desplegar un libro?">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="CAPITULO1.html#1-1" class="navigation navigation-next " aria-label="Next page: ¿Qué es?">
+                <a href="CAPITULO2.html#2-1" class="navigation navigation-next " aria-label="Next page: ¿Qué son?">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -425,7 +419,11 @@ GitBook permite probar el libro antes de empujarlo a la web con el comando:**
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"1.GitBook","level":"1.2","depth":1,"next":{"title":"¿Qué es?","level":"1.2.1","depth":2,"anchor":"#1-1","path":"CAPITULO1.md","ref":"CAPITULO1.md#1-1","articles":[]},"previous":{"title":"Introduction","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["youtube"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"youtube":{},"highlight":{},"search":{"maxIndexSize":1000000},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Merquis, Liliana, Constanza","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Practica 1, Tareas iniciales","language":"es","gitbook":"3.1.1"},"file":{"path":"CAPITULO1.md","mtime":"2016-10-17T12:33:18.690Z","type":"markdown"},"gitbook":{"version":"3.1.1","time":"2016-10-17T12:51:19.087Z"},"basePath":".","book":{"language":""}});
+<<<<<<< HEAD:_book/CAPITULO2.html
+            gitbook.page.hasChanged({"page":{"title":"2.Gh-pages","level":"1.3","depth":1,"next":{"title":"¿Qué son?","level":"1.3.1","depth":2,"anchor":"#2-1","path":"CAPITULO2.md","ref":"CAPITULO2.md#2-1","articles":[]},"previous":{"title":"¿Cómo desplegar un libro?","level":"1.2.3","depth":2,"anchor":"#1-3","path":"CAPITULO1.md","ref":"CAPITULO1.md#1-3","articles":[]},"dir":"ltr"},"config":{"plugins":["youtube"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"youtube":{},"highlight":{},"search":{"maxIndexSize":1000000},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Merquis, Liliana, Constanza","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Practica 1, Tareas iniciales","language":"es","gitbook":"3.1.1"},"file":{"path":"CAPITULO2.md","mtime":"2016-10-17T12:33:18.690Z","type":"markdown"},"gitbook":{"version":"3.1.1","time":"2016-10-17T12:51:19.087Z"},"basePath":".","book":{"language":""}});
+=======
+            gitbook.page.hasChanged({"page":{"title":"2.Gh-pages","level":"1.3","depth":1,"next":{"title":"¿Qué son?","level":"1.3.1","depth":2,"anchor":"#2-1","path":"CAPITULO2.md","ref":"CAPITULO2.md#2-1","articles":[]},"previous":{"title":"¿Cómo desplegar un libro?","level":"1.2.3","depth":2,"anchor":"#1-3","path":"CAPITULO1.md","ref":"CAPITULO1.md#1-3","articles":[]},"dir":"ltr"},"config":{"plugins":["youtube"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"youtube":{},"highlight":{},"search":{"maxIndexSize":1000000},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Merquis, Liliana, Constanza","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Practica 1, Tareas iniciales","language":"es","gitbook":"3.1.1"},"file":{"path":"CAPITULO2.md","mtime":"2016-10-17T12:33:18.690Z","type":"markdown"},"gitbook":{"version":"3.1.1","time":"2016-10-17T12:52:31.929Z"},"basePath":".","book":{"language":""}});
+>>>>>>> 955b998bd8eea57894346a3e14396506f3e0a3b9:CAPITULO2.html
         });
     </script>
 </div>

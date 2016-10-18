@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="es" >
     <head>
-        <title>2.Gh-pages · Practica 1, Tareas iniciales</title>
+        <title>4.Gulpfile · Practica 1, Tareas iniciales</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -57,10 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="CAPITULO2.html" />
+    <link rel="next" href="CAPITULO4.html" />
     
     
-    <link rel="prev" href="CAPITULO1.html" />
+    <link rel="prev" href="CAPITULO3.html" />
     
 
     </head>
@@ -156,7 +156,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.3" data-path="CAPITULO2.html">
+        <li class="chapter " data-level="1.3" data-path="CAPITULO2.html">
             
                 <a href="CAPITULO2.html">
             
@@ -272,7 +272,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.5" data-path="CAPITULO4.html">
+        <li class="chapter active" data-level="1.5" data-path="CAPITULO4.html">
             
                 <a href="CAPITULO4.html">
             
@@ -347,7 +347,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >2.Gh-pages</a>
+        <a href="." >4.Gulpfile</a>
     </h1>
 </div>
 
@@ -359,40 +359,32 @@
                             
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#xBF;qu&#xE9;-es-gh-pages">&#xBF;Qu&#xE9; es GH-Pages?</h1>
-<h6 id="2-1">2-1</h6>
-<pre><code>*GH-pages es un servicio de alojamiento web est&#xE1;tico de Github que nos permite desplegar nuestro sitio web.*
-</code></pre><h1 id="&#xBF;c&#xF3;mo-se-utiliza">&#xBF;C&#xF3;mo se utiliza?</h1>
-<h6 id="2-2">2-2</h6>
-<pre><code>*Se puede almacenar cualquier c&#xF3;digo que se desee en un repositorio de Github, pero para usar la caracter&#xED;stica p&#xE1;ginas
-de Github con  pleno efecto, el c&#xF3;digo debe estar estructurado como un sitio web t&#xED;pico, por ejemplo que el punto de entrada
-primario sea un archivo     HTML llamado index.html.*
-</code></pre><p>  <strong>SEGUIREMOS LOS SIGUIENTES PASOS :</strong></p>
-<p>  <em>1. Crear un nuevo repositorio para colocar los archivos en el. Has clic en el signo m&#xE1;s (+) en la parte superior derecha   de la         p&#xE1;gina de inicio de GitHub, luego escoge Nuevo Repositorio</em>
-  *2. En esta p&#xE1;gina, en la caja Nombre del Repositorio, digita el nombre para tu repositorio de c&#xF3;digo, por ejemplo my-repository.</p>
-<ol>
-<li>Tambien llena una descripci&#xF3;n para decir lo que tu repositorio va a contener.</li>
-<li>Has Clic en Crear repositorio.*</li>
-</ol>
-<p>  <strong>SUBIENDO LOS ARCHIVOS A GITHUB :</strong></p>
-<p>  <em>1. En la p&#xE1;gina actual, nos interesa la secci&#xF3;n &#x2026;or push an existing repository from the command line. Se deber&#xED;an ver dos lineas de c&#xF3;digo listado en esta secci&#xF3;n. Copia la totalidad de la primera l&#xED;nea, pegala en la linea de comandos, presiona la tecla Enter.</em></p>
-<pre><code>  git remote add origin https://github.com/chrisdavidmills/my-repository.git
-</code></pre><p>  <em>2.A continuaci&#xF3;n, digitamos los siguientes dos comandos, presionando Enter despues de cada uno. Estos preparan el codigo para subirlo a GitHub, and ask Git to manage these files.</em></p>
-<pre><code>  git add --all
-  git commit -m &apos;adding my files to my repository&apos;
-</code></pre><p>  <em>3. Por &#xFA;ltimo, subimos el c&#xF3;digo hasta GitHub by going to the GitHub web page you&apos;re on and entering into the terminal the second of the two commands we saw the &#x2026;or push an existing repository from the command line section:</em></p>
-<pre><code>  git push -u origin master
-</code></pre><pre><code>*4. Ahora creamos la rama gh-pages de tu repositorio; actualiza la p&#xE1;gina actual y ver&#xE1; una p&#xE1;gina del repositorio algo as&#xED; como la de abajo. Presionamos el boton que dice Branch: master, digita gh-pages en el campo de texto, luego presiona el boton azul que dice Create branch: gh-pages. Esto crea una rama de c&#xF3;digo especial llamada gh-pages que es publicada en una ubicaci&#xF3;n especial. La URL toma la forma username.github.io/my-repository-name, asi en mi caso de ejemplo,* [la URL deber&#xED;a ser](https://chrisdavidmills.github.io/my-repository). *La p&#xE1;gina mostrada es la p&#xE1;gina index.html.
-</code></pre><ol>
-<li>Navega tu direcci&#xF3;n web de GitHub pages en un nuevo navegador, y deberia verse tu sitio en linea.*</li>
-</ol>
-<h1 id="como-utilizar-el-m&#xF3;dulo-gh-pages-para-automatizar-el-despliegue">Como utilizar el m&#xF3;dulo gh-pages para automatizar el despliegue</h1>
-<h6 id="2-3">2-3</h6>
-<pre><code>*Creaci&#xF3;n de p&#xE1;ginas con el generador autom&#xE1;tico
-Puede utilizar Generador autom&#xE1;tico de p&#xE1;gina GitHub para crear r&#xE1;pidamente un &#xFA;nico sitio web de p&#xE1;gina para un proyecto, usuario u     organizaci&#xF3;n.*
+                                <h1 id="&#xBF;qu&#xE9;-es-gulpfile">&#xBF;Qu&#xE9; es Gulpfile?</h1>
+<p>&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD</p>
+<p>  <em>Es un fichero</em> <a href="https://www.npmjs.com/package/gulp" target="_blank">Gulp</a> <em>en donde se automatizan tareas de desarrollo, como recarga del navegador,compresi&#xF3;n de im&#xE1;genes, validaci&#xF3;n de sintaxis de c&#xF3;digo, despliegues de libeos en diferentes sites.</em></p>
+<p>=======</p>
+<h6 id="4-1">4-1</h6>
+<p>  <em>Es un fichero Gulp</em> <a href="https://www.npmjs.com/package/gulp" target="_blank">Gulp</a> <em>en donde se automatizan tareas de desarrollo, como recarga del navegador,compresi&#xF3;n de im&#xE1;genes, validaci&#xF3;n de sintaxis de c&#xF3;digo, despliegues de libeos en diferentes sites.</em></p>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>origin/master
+<img src="https://raw.githubusercontent.com/gulpjs/artwork/master/gulp-2x.png" alt="gulp"></p>
+<h1 id="&#xBF;c&#xF3;mo-se-utiliza-">&#xBF;C&#xF3;mo se utiliza ?</h1>
+<h6 id="4-2">4-2</h6>
+<p><a href="https://frontendlabs.io/1669--gulp-js-en-espanol-tutorial-basico-primeros-pasos-y-ejemplos" target="_blank">informaci&#xF3;n</a></p>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
+</blockquote>
 
-*El generador autom&#xE1;tico de p&#xE1;gina est&#xE1; dise&#xF1;ada para crear sitios web de una sola p&#xE1;gina. Si usted est&#xE1; interesado en la construcci&#xF3;n de un sitio web de varias p&#xE1;ginas, se recomienda utilizar Jekyll . Para agregar varias p&#xE1;ginas a su sitio automatizado generador de la p&#xE1;gina como una soluci&#xF3;n, puede intentar copiar el index.htmlarchivo en la ra&#xED;z de su repositorio y editarlo como plantilla para otras p&#xE1;ginas web. Esta soluci&#xF3;n requiere cierta familiaridad con el lenguaje HTML.*
-</code></pre>
                                 
                                 </section>
                             
@@ -403,12 +395,12 @@ Puede utilizar Generador autom&#xE1;tico de p&#xE1;gina GitHub para crear r&#xE1
 
             
                 
-                <a href="CAPITULO1.html#1-3" class="navigation navigation-prev " aria-label="Previous page: ¿Cómo desplegar un libro?">
+                <a href="CAPITULO3.html#3-3" class="navigation navigation-prev " aria-label="Previous page: ¿Qué es package.json?">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="CAPITULO2.html#2-1" class="navigation navigation-next " aria-label="Next page: ¿Qué son?">
+                <a href="CAPITULO4.html#4-1" class="navigation navigation-next " aria-label="Next page: ¿Qué es?">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -419,7 +411,11 @@ Puede utilizar Generador autom&#xE1;tico de p&#xE1;gina GitHub para crear r&#xE1
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"2.Gh-pages","level":"1.3","depth":1,"next":{"title":"¿Qué son?","level":"1.3.1","depth":2,"anchor":"#2-1","path":"CAPITULO2.md","ref":"CAPITULO2.md#2-1","articles":[]},"previous":{"title":"¿Cómo desplegar un libro?","level":"1.2.3","depth":2,"anchor":"#1-3","path":"CAPITULO1.md","ref":"CAPITULO1.md#1-3","articles":[]},"dir":"ltr"},"config":{"plugins":["youtube"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"youtube":{},"highlight":{},"search":{"maxIndexSize":1000000},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Merquis, Liliana, Constanza","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Practica 1, Tareas iniciales","language":"es","gitbook":"3.1.1"},"file":{"path":"CAPITULO2.md","mtime":"2016-10-17T12:33:18.690Z","type":"markdown"},"gitbook":{"version":"3.1.1","time":"2016-10-17T12:51:19.087Z"},"basePath":".","book":{"language":""}});
+<<<<<<< HEAD:_book/CAPITULO4.html
+            gitbook.page.hasChanged({"page":{"title":"4.Gulpfile","level":"1.5","depth":1,"next":{"title":"¿Qué es?","level":"1.5.1","depth":2,"anchor":"#4-1","path":"CAPITULO4.md","ref":"CAPITULO4.md#4-1","articles":[]},"previous":{"title":"¿Qué es package.json?","level":"1.4.3","depth":2,"anchor":"#3-3","path":"CAPITULO3.md","ref":"CAPITULO3.md#3-3","articles":[]},"dir":"ltr"},"config":{"plugins":["youtube"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"youtube":{},"highlight":{},"search":{"maxIndexSize":1000000},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Merquis, Liliana, Constanza","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Practica 1, Tareas iniciales","language":"es","gitbook":"3.1.1"},"file":{"path":"CAPITULO4.md","mtime":"2016-10-17T12:33:18.690Z","type":"markdown"},"gitbook":{"version":"3.1.1","time":"2016-10-17T12:51:19.087Z"},"basePath":".","book":{"language":""}});
+=======
+            gitbook.page.hasChanged({"page":{"title":"4.Gulpfile","level":"1.5","depth":1,"next":{"title":"¿Qué es?","level":"1.5.1","depth":2,"anchor":"#4-1","path":"CAPITULO4.md","ref":"CAPITULO4.md#4-1","articles":[]},"previous":{"title":"¿Qué es package.json?","level":"1.4.3","depth":2,"anchor":"#3-3","path":"CAPITULO3.md","ref":"CAPITULO3.md#3-3","articles":[]},"dir":"ltr"},"config":{"plugins":["youtube"],"root":"txt","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"youtube":{},"highlight":{},"search":{"maxIndexSize":1000000},"lunr":{"maxIndexSize":1000000},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"Merquis, Liliana, Constanza","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Practica 1, Tareas iniciales","language":"es","gitbook":"3.1.1"},"file":{"path":"CAPITULO4.md","mtime":"2016-10-17T12:33:18.690Z","type":"markdown"},"gitbook":{"version":"3.1.1","time":"2016-10-17T12:52:31.929Z"},"basePath":".","book":{"language":""}});
+>>>>>>> 955b998bd8eea57894346a3e14396506f3e0a3b9:CAPITULO4.html
         });
     </script>
 </div>
