@@ -38,3 +38,6 @@ app.post('/sync', function(request, response) {
 app.listen(app.get('port'), function() {
   console.log('Servidor escuchando en el puerto:'+app.get('port'));
 });
+
+
+module.exports = app;
