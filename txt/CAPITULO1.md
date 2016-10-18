@@ -1,6 +1,6 @@
 
 #¿Qué es GitBook?
-######1-1 Esto es una prueba 
+######1-1 
   *GitBook es una herramiento para crear documentación de proyectos y libros técnicos*
 #¿Cómo se utiliza?
 ######1-2
